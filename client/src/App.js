@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import { Home } from './pages/Home.component';
 import { Saved } from './pages/Saved.component';
-import { NoMatch } from './page/NoMatch.component';
+import { NoMatch } from './pagesNoMatch';
 
 
 function App() {
