@@ -8,8 +8,8 @@ import { Col, Row, Container } from "../components/Grid";
 // import Row from "../Grid";
 // import Col from "../Grid";
 // import Container from "../Grid";
-// import { List } from "../components/List";
-import List from "../components/List";
+import { List } from "../components/List";
+// import List from "../components/List";
 
 class Saved extends Component {
   state = {
