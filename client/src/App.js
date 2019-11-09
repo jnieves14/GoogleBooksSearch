@@ -1,13 +1,12 @@
 import React from 'react';
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import { Home } from './pages/Home.component';
-import { Saved } from './pages/Saved.component';
-import { NoMatch } from './pagesNoMatch';
+import { Home } from './pages/Home';
+import { Saved } from './pages/Saved';
+import { NoMatch } from './pages/NoMatch';
 
 
 function App() {
