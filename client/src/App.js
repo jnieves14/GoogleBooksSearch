@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Home } from './pages/Home';
+import { Home } from './pages/Homepage';
 import { Saved } from './pages/Saved';
 import { NoMatch } from './pages/NoMatch';
 
