@@ -1,5 +1,6 @@
 const express = require("express");
-const mongoose = require("./client/node_modules/'mongoose");
+const path = require("path");
+const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -24,6 +25,11 @@ mongoose.connect(
         useNewUrlParser: true
     }
 );
+
+// DEFINE ANY API ROUTES BEFORE THIS RUNS
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
 // START THE API SERVER
 app.listen(PORT, () => {

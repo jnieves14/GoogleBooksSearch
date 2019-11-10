@@ -1,5 +1,3 @@
-// export { default } from "./Footer.component";
-
 import React from "react";
 
 function Footer() {

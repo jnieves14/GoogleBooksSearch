@@ -1,5 +1,3 @@
-// export { default } from "./Form.component";
-
 import React from "react";
 
 function Form({ q, handleInputChange, handleFormSubmit }) {
@@ -14,7 +12,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={q}
-          placeholder="Man's Search For Meaning"
+          placeholder="Man's Search for Meaning"
           name="q"
           onChange={handleInputChange}
           required

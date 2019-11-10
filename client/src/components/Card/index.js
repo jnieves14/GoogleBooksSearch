@@ -1,5 +1,3 @@
-// export { default } from "./Card.component";
-
 import React from "react";
 
 function Card({ icon, title, children }) {

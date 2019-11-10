@@ -1,5 +1,3 @@
-// export { default } from "./Jumbotron.component";
-
 import React from "react";
 import "./style.css";
 
